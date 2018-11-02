@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  /* toma en cuenta el width desde los bordes */
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.bg-hero {
+  background-image: url("https://i2.wp.com/lahuertinadetoni.es/wp-content/uploads/2017/06/cosmos-2280144_1280-1024x685.jpg?resize=1024%2C685");
+  background: rgba(0, 0, 0, );
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f1f1f1;
+}
+.main-title{
+  margin:0;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+
+}
+.main-readmore {
+  margin-top: 5rem;
+}
+.main-button {
+  border-radius: 5px;
+  background-color: #2c353c;
+  border: none;
+  color: #f1f1f1;
+  letter-spacing: 0.2rem;
+  padding: 1rem 1.2rem;
+}
